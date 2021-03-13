@@ -1,0 +1,9 @@
+Flask==1.1.1
+gunicorn=19.9.0
+numpy>=1.9.2
+matplotlib>=1.4.3
+Pandas>=0.19
+flask-ngrok==0.0.25
+Keras==2.4.3
+tensorflow==2.4.1
+Pillow==7.0.0
