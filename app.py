@@ -57,7 +57,7 @@ def load_model():
     x=tf.keras.layers.Dropout(.5)(x)
     predictions = Dense(10, activation='softmax')(x)
     model = Model(inputs=base_model.input, outputs=predictions)
-    model.load_weights('/home/amlaan/Downloads/mdl_wts1.hdf5')
+    model.load_weights('mdl_wts1.hdf5')
 
 from keras.applications.resnet50 import ResNet50, preprocess_input
 from keras.preprocessing.image import load_img, img_to_array
